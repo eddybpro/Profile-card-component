@@ -19,11 +19,10 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    background-color: var(--ark-cyan);
-    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
-    background-size: 60%, 70%;
-    background-position: -15rem -15rem, 45rem 17rem;
+    background: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
     background-repeat: no-repeat, no-repeat;
+    background-color: var(--ark-cyan);
     min-height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     font-size: 16px;
@@ -112,10 +111,6 @@ footer a{
 }
 
 @media screen and (max-width:686px) {
-    body{
-        background-position: -1rem -2rem, 12rem 30rem !important;
-    }
-
     main{
         width: 94%;
         max-width: 500px;
